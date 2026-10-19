@@ -1,0 +1,15 @@
+# Profile layer of dsh-subagent-antigravity.
+#
+# One provider row (this package) and one model-facing delegation tool row. The
+# shape matches the official Codex / Claude Code subagent bundles, so enabling
+# or disabling this layer registers or removes `subagent_antigravity` the same
+# way it does for the official backends.
+- insert:
+    - id: subagent-antigravity
+      name: 'dsh-subagent-antigravity'
+    - id: tool-subagent-antigravity
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: antigravity
+        toolName: subagent_antigravity
+        maxDepth: provider-managed

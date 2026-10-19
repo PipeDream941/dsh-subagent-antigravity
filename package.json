@@ -1,0 +1,57 @@
+{
+  "name": "dsh-subagent-antigravity",
+  "version": "0.1.0",
+  "displayName": "Antigravity 子智能体",
+  "description": "Run Google Antigravity CLI (agy) as a one-shot coding subagent in DeepSeek Harness: a subagent_antigravity delegation tool that can drive Gemini 4 Argon and the other Antigravity subscription models inside the parent workspace.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./config": "./lib/config.js",
+    "./resolve": "./lib/resolve.js",
+    "./run": "./lib/run.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "scripts": {
+    "test": "node --test --test-force-exit \"test/**/*.test.mjs\"",
+    "smoke": "node scripts/smoke.mjs",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "antigravity",
+    "google-antigravity",
+    "agy",
+    "gemini-4",
+    "gemini-4-argon",
+    "subagent",
+    "delegation",
+    "coding-agent",
+    "cli"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "manifestVersion": 1
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "~3.18.5"
+  }
+}

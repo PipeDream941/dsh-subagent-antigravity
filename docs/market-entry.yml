@@ -1,0 +1,16 @@
+# DSH 插件市场收录条目（提交到 awesome-dsh-plugin 时使用）
+#
+# 提交方式：向上游仓库提 PR，新增一个文件：
+#   data/plugins/<owner>__<repo>.yml
+# 文件名例：your-name__dsh-subagent-antigravity.yml（owner/repo 用 __ 连接）
+#
+# 注意：
+#   - url 必须与 GitHub 仓库地址完全一致；
+#   - description.en 必填、以句号结尾；出现 “: ”（冒号+空格）时必须加引号；
+#   - category 选最贴近的分类：本插件提供模型可调用的委派工具 → tools。
+url: https://github.com/YOUR_GITHUB_NAME/dsh-subagent-antigravity
+name: YOUR_GITHUB_NAME/dsh-subagent-antigravity
+category: tools
+description:
+  en: "Runs the official Google Antigravity CLI (agy) as a one-shot coding subagent over print-mode stream-json, exposed as the subagent_antigravity delegation tool."
+  zh: "把 Google 官方 Antigravity CLI（agy）作为一次性编码子智能体接入 DeepSeek Harness，提供 subagent_antigravity 委派工具。"
