@@ -5,7 +5,6 @@
 url: https://github.com/PipeDream941/dsh-subagent-antigravity
 name: PipeDream941/dsh-subagent-antigravity
 category: tools
-tarball: https://github.com/PipeDream941/dsh-subagent-antigravity/releases/latest/download/dsh-subagent-antigravity-0.1.0.tgz
 description:
   en: "Runs the official Google Antigravity CLI (agy) as a one-shot coding subagent over print-mode stream-json, exposed as the subagent_antigravity delegation tool. Includes Gemini 4 Argon on Antigravity subscriptions."
   zh: "把 Google 官方 Antigravity CLI（agy）作为一次性编码子智能体接入 DeepSeek Harness，提供 subagent_antigravity 委派工具，可直接使用 Gemini 4 Argon 等 Antigravity 订阅模型。"

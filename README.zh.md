@@ -5,6 +5,8 @@ kind: "package-bundle"
 
 # dsh-subagent-antigravity
 
+[![npm version](https://img.shields.io/npm/v/dsh-subagent-antigravity?label=npm)](https://www.npmjs.com/package/dsh-subagent-antigravity) [![license](https://img.shields.io/npm/l/dsh-subagent-antigravity)](https://github.com/PipeDream941/dsh-subagent-antigravity/blob/main/LICENSE)
+
 [English](README.md) | 中文
 
 给 DeepSeek Harness 加一个 **Antigravity 子智能体**：父会话里的模型可以调用 `subagent_antigravity`，
